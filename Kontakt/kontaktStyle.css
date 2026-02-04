@@ -88,12 +88,58 @@ nav {
 
 /*kontakt*/
 
+.kontakt-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
 
+/* Kontaktinfo */
+.kontaktInfo {
+    background-color: #f4f4f4;
+    padding: 1.5rem;
+    border-radius: 10px;
+    max-width: 300px;
+    flex: 1;
+}
 
+.inlägg {
+    background-color: #fff;
+    border: 2px solid var(--main-color);
+    border-radius: 15px;
+    padding: 1rem;
+    max-width: 500px;
+    margin: 2rem;
+    display: flex;         
+    gap: 1rem;
 
+}
 
+.inlägg-img {
+    width: 180px;
+    height: 90px;
+    flex-shrink: 0;
+}
 
+/* “Kommentera” */
+.inlägg-text {
+    color: #888;
+    border: black dashed 1px;
+    margin: 10px;
+    padding: 10px;
+}
 
+.inlägg-info {
+    color: black;
+}
+
+.inlägg-views {
+    font-size: 0.9rem;
+    color: grey;
+    text-align: right;
+}
 
 /*footer*/
 footer {
@@ -124,6 +170,4 @@ footer {
 .Snabblänk a:hover {
     color: black;
 }
-
-
 
