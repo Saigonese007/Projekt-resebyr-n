@@ -85,3 +85,92 @@ nav {
 .resorknapp:hover {
     background-color: #333;
 }
+
+
+/* resor */
+.resor {
+    padding: 3rem;
+    background-color: #f4f4f4;
+}
+
+.resor-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.reskort {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.reskort img {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.pris {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.resorknapp {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.resorknapp:hover {
+    background-color: #333;
+}
+
+/*Hover över korten*/
+.reskort {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.reskort:hover {
+    background-color: var(--main-color);
+    color: white;
+}
+
+
+/*footer*/
+footer {
+    background-color: var(--main-color);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1rem;
+    border: 1px dashed black;
+}
+
+.Snabblänk {
+    padding: 1rem;
+    text-align: center;
+}
+
+.Snabblänk h3 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.Snabblänk a {
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.Snabblänk a:hover {
+    color: black;
+}
